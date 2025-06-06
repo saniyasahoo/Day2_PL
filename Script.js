@@ -1,4 +1,4 @@
-Assume you have the following array of student obje", allAbove18);Assume you have the following array of student objects:
+let objects:
 
 const students = [
   { name: "Alice", age: 20 },
@@ -66,6 +66,8 @@ console.log(students);
 
 const hasAlice = students.some(student => student.name === "Alice");
 console.log("Contains Alice?", hasAlice);
+
+---
 
 //every()
 
